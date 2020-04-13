@@ -2,6 +2,7 @@
 name = input("Enter Your Name : ")
 x = "Wish You a Happy New Year, "+name
 y = len(x)
+print(x)
 for i in range(y):
     print(x[0:i+1])
 
